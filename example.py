@@ -14,3 +14,13 @@ def subtract(a, b):
 # uncomment the following test in step 5
 def test_subtract():
     assert subtract(2, 3) == -1
+
+
+def multiply(a, b):
+    return a * b
+
+
+def test_multiply():
+    assert multiply(3, 3) == 9
+    assert multiply(2, 5) == 10
+    assert multiply(-8, 2) == -16
